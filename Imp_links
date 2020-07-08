@@ -1,0 +1,22 @@
+CV Reference: https://www.hireitpeople.com/resume-database/64-java-developers-architects-resumes/136342-sr-java-microservices-developer-resume-atlanta-ga
+
+
+https://medium.com/swlh/spring-cloud-service-discovery-with-eureka-16f32068e5c7
+Code: https://github.com/sarindufit/spring-cloud-eureka-server-client/blob/master/eureka-server/pom.xml
+
+
+https://medium.com/become-developer/how-to-work-with-multiple-instances-of-eureka-naming-server-to-avoid-a-single-point-of-failure-d953544281d0
+https://github.com/Netflix/eureka/wiki
+
+Need to check out:
+https://gitlab.com/tonsaito/master-microservices/tree/master/eureka-naming-server
+
+
+https://medium.com/jamalsoliva/spring-cloud-config-server-with-multiples-repositories-d8aeaa5fc41c
+
+@Aysnc
+https://medium.com/trendyol-tech/spring-boot-async-executor-management-with-threadpooltaskexecutor-f493903617d
+
+
+Transactions:
+https://medium.com/swlh/handling-transactions-in-the-microservice-world-c77b275813e0
