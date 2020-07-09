@@ -1,0 +1,6 @@
+https://www.javainuse.com/spring/boot-transaction
+
+
+https://www.javainuse.com/spring/boot-transaction-propagation
+https://www.javainuse.com/spring/boot-transaction-isolation
+https://www.javainuse.com/spring/boot-rollback
