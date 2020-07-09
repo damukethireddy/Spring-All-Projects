@@ -1,0 +1,23 @@
+Best Tutorial for Rest Template with all types of produces and consumers:
+
+https://howtodoinjava.com/spring-boot2/resttemplate/spring-restful-client-resttemplate-example/
+
+
+
+@Bean
+public RestTemplate restTemplate() {
+  return new RestTemplateBuilder()
+          .requestFactory(this::clientHttpRequestFactory)
+          .errorHandler(new CustomClientErrorHandler())
+          .interceptors(new CustomClientHttpRequestInterceptor())
+          .build();
+}
+
+how we can easily replace the HTTP client API used by Springs RestTemplate with another one. We looked at the following configuration options:
+
+Configuration of a connection pool, which makes it possible to reuse existing connections.
+Configuration of your own keep-alive strategy.
+Creating an Idle Connection Monitor to remove connections that are no longer needed.
+Create and use your own error handler.
+Logging of all HTTP requests with our own interceptor.
+Wiring of Apaches HTTP client API with Springs RestTemplate.
